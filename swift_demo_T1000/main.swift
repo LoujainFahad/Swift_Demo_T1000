@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
 
+print("Enter your Mark  :")
+var Mark: Double = Utils.readDouble()
+
+print("Enter your Full Mark  :")
+var  fullMark : Int = Utils.readInt()
+
+var pct = Mark / Double (fullMark) * 100
+print ("Round : " , round (pct*100))
