@@ -8,25 +8,51 @@
 import Foundation
 
 
-print("Enter your Mark :" , terminator: "")
-let Mark: Double = Utils.readDouble()
+print("Enter a radius: " , terminator: "")
+let r = Utils.readFloat()
+let pi = 3.14
 
-print("Enter your Full Mark :" , terminator: "")
-let  fullMark : Int = Utils.readInt()
+//area = πr^2
+let  Area = round(Float.pi * pow(r, 2))
 
-let pct = Mark / Double (fullMark) * 100
-print ("The prcentage :" , round (pct * 100) / 100 ,"%")
+//volume = 4πr^3 /3.
+let Volume = round(4 * Float.pi * pow(r,3) / 3)
+                              
+print ("Area is: \(Area) and Volume is:\(Volume)")
+                              
 
-//________
 
-print("Enter your weight :" , terminator: "")
-let weight: Double = Utils.readDouble()
+
+
+
+
+
+
+
+
+
 //
-print("Enter your height :" , terminator: "")
-let  height : Double = Utils.readDouble()
-
-let h = (height / 100)
-
-let bmi = weight / pow(h , 2)
-
-print ("the BMI" , round (bmi * 100) / 100, "%")
+//var score = 0
+//
+//for _ in 1..<10 {
+//
+//    let x = Int.random(in: 1...10)
+//    let y = Int.random(in: 1...10)
+//
+//print("What's \(x) * \(y) ? ", terminator: "")
+//let answer = Utils.readInt()
+//let correctAnswer = x*y
+//if answer == correctAnswer{
+//score+=1
+//    print("correct Answer")
+//}
+//else {
+//    print("Wrong Answer")
+//    print ("the correct answer is ", correctAnswer)
+//}
+//
+//
+//    print("the score is: \(score) / 5" )
+//}
+//
+//print (score)

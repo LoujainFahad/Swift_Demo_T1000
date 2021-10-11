@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//كود الاول
+
 //
 //print("Enter your Mark :" , terminator: "")
 //let Mark: Double = Utils.readDouble()
@@ -16,7 +16,29 @@ import Foundation
 //
 //let pct = Mark / Double (fullMark) * 100
 //print ("The prcentage :" , round (pct * 100) / 100 ,"%")
-// 
 //
-
-
+//
+//if pct > 85 {
+//    print("Exlend")
+//}
+// else if pct > 75{
+//    print(" very good")
+//}
+//
+//else if pct > 65{
+//    print("good")
+//
+//}
+//
+//else if pct >= 50{
+//    print("pass")
+//
+//}
+//
+//else {
+//    print("F")
+//
+//}
+//
+//
+//
